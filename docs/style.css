@@ -11,12 +11,12 @@ h1, h2, h3 {
   -webkit-text-stroke-color: #c0c1c2;
 }
 
-h2 {
+h1 {
   height: 20px;
   transition: height 2s;
 }
 
-h2:hover {
+h1:hover {
   height: 0px;
 }
 
