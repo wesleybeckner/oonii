@@ -1,10 +1,14 @@
 // function myFunction() {
-//   setTimeout(function(){ 
+//   setTimeout(function(){
 //     oonii = document.getElementById("oonii");
 //     oonii.innerHTML = "admin@oonii.io"
 //     }, 3000);
 // }
 // myFunction();
+document.querySelector('.a').addEventListener('click', function(){
+console.log('h1 has been clicked');
+window.location = "https://sites.google.com/view/oonii/calendar"
+});
 
 // Wrap every letter in a span
 var textWrapper = document.querySelector('.a');

@@ -132,3 +132,9 @@ body {
   color: #fff;
   z-index: 2;
 }
+
+.a:active{
+transform: scale(0.9, 0.9);
+/* color:#2d3436; */
+transition: transform 0.5s;
+}
