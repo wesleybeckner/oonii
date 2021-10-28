@@ -1,5 +1,4 @@
 var thumbnails = document.getElementById("thumbnails")
-var emojis = thumbnails.getElementsByTagName("h1")
 var emoji = thumbnails.innerHTML.split("\n")
 console.log(emoji)
 
